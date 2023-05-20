@@ -1,5 +1,9 @@
 # Axios Error to Http
 
+```sh
+npm i axios-error-to-http
+```
+
 Handle annoying gigantic axios errors:
 
 ```ts
