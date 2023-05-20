@@ -1,6 +1,6 @@
 import { AxiosError } from 'axios';
 import { HttpError } from 'http-errors';
 
-export function coerceAxiosErrorToHttpError(
+export default function coerceAxiosErrorToHttpError(
   error: AxiosError
 ): HttpError;
