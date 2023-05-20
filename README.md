@@ -8,3 +8,5 @@ const httpError = (error as AxiosError)?.isAxiosError
   : error;
 console.error(httpError);
 ```
+
+Peer dependcies are [axios](https://www.npmjs.com/package/axios) and [http-errors](https://www.npmjs.com/package/http-errors).
